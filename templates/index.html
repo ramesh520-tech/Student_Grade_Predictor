@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Predictor</title>
+</head>
+<body>
+
+<h2>Enter Student Marks</h2>
+
+<form action="/predict" method="post">
+    Maths: <input type="number" name="Maths" required><br><br>
+    English: <input type="number" name="English" required><br><br>
+    Science: <input type="number" name="Science" required><br><br>
+    Telugu: <input type="number" name="Telugu" required><br><br>
+    Biology: <input type="number" name="Biology" required><br><br>
+
+    <input type="submit" value="Predict">
+</form>
+
+<h3>{{ result }}</h3>
+
+</body>
+</html>
